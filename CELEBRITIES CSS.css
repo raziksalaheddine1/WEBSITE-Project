@@ -1,0 +1,400 @@
+.topnav {
+  overflow: hidden;
+  background-color: salmon;
+  height:146px;
+  top:0px;
+  left:0px;
+  right:0px;
+  width: 100%;
+  position: fixed;
+  animation: color 5s infinite;
+}
+
+@keyframes color {
+  from {background-color: #81D4FA;}
+  to {background-color: #448AFF;}
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 17px 30px;
+  text-decoration: none;
+  font-size: 18px;
+  margin-top: 91px;
+  font-family: 'Steelfish Rg';
+}
+
+.topnav a:hover {
+  background-color: red;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: black;
+  color: red;
+  font-weight: bold;
+}
+
+#celebrity {
+	font-size: 80px;
+	margin-left: 425px;
+        background-image: url(STAR.jpg);
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent; 
+        margin-top: 20px;
+        font-family: algerian,'Steelfish Rg', 'helvetica neue', 
+                    helvetica, arial, sans-serif; 
+        font-weight:normal;
+    } 
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 18px;
+  font-weight: bold; 
+  border: none;
+  outline: none;
+  color: black;
+  padding: 17px 30px;
+  text-align: center;
+  margin-top: 91px;
+  background-color: transparent;
+  width: 132px;
+  font-family: 'Steelfish Rg';
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: black;
+  padding: 14.5px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: red;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.dropdown-content a:hover {
+  background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#mySidenav {
+border:2px;
+border-style:solid;
+border-radius: 0 5px 5px 0;
+padding:90px;
+margin-top:194px;
+margin-right:1100px;
+margin-left:-10px;
+background-image:url(STAR.jpg);
+position:fixed
+}
+
+#mySidenav a {
+
+  left: -150px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 171px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  border-radius: 0 5px 5px 0;
+  font-family: Helvetica;
+  text-align: center;
+  position: fixed;
+}
+
+#mySidenav a:hover {
+  left: -25px;
+}
+
+#physics {
+  top: 360px;
+  background-color: Red;
+}
+
+#philosophy {
+  top: 420px;
+  background-color: green;
+}
+
+#invention {
+  top: 480px;
+  background-color: blue;
+}
+
+#fields {
+margin-left:30px;
+position: fixed;
+top:290px;
+text-shadow:1px 1px 1px black;
+}
+
+#name {
+font-size:70px;
+margin-top:160px;
+font-family:algerian,'Steelfish Rg', 'helvetica neue', helvetica, arial, sans-serif;
+font-weight: normal;
+text-shadow:1px 1px 1px black;
+}
+
+p {
+margin-left:300px;
+margin-top: 0px;
+font-weight: bold;
+}
+
+h3  {
+margin-left:300px;
+font-size:30px;
+}
+
+h4  {
+margin-left:300px;
+font-size:20px;
+}
+
+div.gallery {
+  float: right;
+  width: 180px;
+  margin-right: 63px;
+  margin-top: -33px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 220px;
+}
+
+div.desc {
+  padding: 2px;
+  text-align: center;
+  font-size: 30px;
+}
+
+#quote {
+	font-size: 50px;
+	text-align: center;
+	margin-left: 270px;
+        margin-top: 230px;
+        background-image: url(STAR.jpg);
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent; 
+        font-family: algerian,'Steelfish Rg', 'helvetica neue', 
+                     helvetica, arial, sans-serif; 
+        font-weight:normal;
+}
+
+#shape {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  position: relative;
+  animation-name: shape;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shape { 
+   0% {background-color:#81D4FA; left:480px;  top:-415px;}
+  25% {background-color:#448AFF; left:480px;  top:-60px;}
+  50% {background-color:#81D4FA; left:1080px; top:-60px;}
+  75% {background-color:#448AFF; left:1080px; top:-415px;}
+ 100% {background-color:#81D4FA; left:480px;  top:-415px;}
+}
+
+#line1 {
+  width: 10px;
+  height: 50px;
+  background-color: red;
+  position: relative;
+  animation-name: L1;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes L1 {
+  0%   {background-color:red;     left:555px; top:-33px;  }
+  25%  {background-color:#FFEBEE; left:555px; top:70px;}
+  50%  {background-color:red;     left:555px; top:186px;}
+  75%  {background-color:#FFEBEE; left:555px; top:70px;}
+  100% {background-color:red;     left:555px; top:-33px;  }
+}
+
+#line2 {
+  width: 10px;
+  height: 50px;
+  background-color: red;
+  position: relative;
+  animation-name: L2;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes L2 {
+  0%   {background-color:red;     left:810px; top:-83px;  }
+  25%  {background-color:#FFEBEE; left:810px; top:20px;}
+  50%  {background-color:red;     left:810px; top:136px;}
+  75%  {background-color:#FFEBEE; left:810px; top:20px;}
+  100% {background-color:red;     left:810px; top:-83px;  }
+}
+
+#line3 {
+  width: 10px;
+  height: 50px;
+  background-color: red;
+  position: relative;
+  animation-name: L3;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes L3 {
+  0%   {background-color:red;     left:1060px; top:-133px;  }
+  25%  {background-color:#FFEBEE; left:1060px; top:-30px;}
+  50%  {background-color:red;     left:1060px; top:86px;}
+  75%  {background-color:#FFEBEE; left:1060px; top:-30px;}
+  100% {background-color:red;     left:1060px; top:-133px;  }
+}
+
+#line4 {
+  width: 10px;
+  height: 50px;
+  background-color: green;
+  position: relative;
+  animation-name: L4;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes L4 {  
+  0%   {background-color:green;   left:555px; top:-33px;  }
+  25%  {background-color:#E8F5E9; left:555px; top:70px;}
+  50%  {background-color:green;   left:555px; top:186px;}
+  75%  {background-color:#E8F5E9; left:555px; top:70px;}
+  100% {background-color:green;   left:555px; top:-33px;  }
+}
+
+#line5 {
+  width: 10px;
+  height: 50px;
+  background-color: green;
+  position: relative;
+  animation-name: L5;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes L5 {
+  0%   {background-color:green;   left:810px; top:-83px;  }
+  25%  {background-color:#E8F5E9; left:810px; top:20px;}
+  50%  {background-color:green;   left:810px; top:136px;}
+  75%  {background-color:#E8F5E9; left:810px; top:20px;}
+  100% {background-color:green;   left:810px; top:-83px;  }
+}
+
+#line6 {
+  width: 10px;
+  height: 50px;
+  background-color: green;
+  position: relative;
+  animation-name: L6;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes L6 {
+  0%   {background-color:green;   left:1060px; top:-133px;  }
+  25%  {background-color:#E8F5E9; left:1060px; top:-30px;}
+  50%  {background-color:green;   left:1060px; top:86px;}
+  75%  {background-color:#E8F5E9; left:1060px; top:-30px;}
+  100% {background-color:green;   left:1060px; top:-133px;  }
+}
+
+#line7 {
+  width: 10px;
+  height: 50px;
+  background-color: blue;
+  position: relative;
+  animation-name: L7;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes L7 {  
+  0%   {background-color:blue;    left:555px; top:-33px;  }
+  25%  {background-color:#E8EAF6; left:555px; top:70px;}
+  50%  {background-color:blue;    left:555px; top:186px;}
+  75%  {background-color:#E8EAF6; left:555px; top:70px;}
+  100% {background-color:blue;    left:555px; top:-33px;  }
+}
+
+#line8 {
+  width: 10px;
+  height: 50px;
+  background-color: blue;
+  position: relative;
+  animation-name: L8;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes L8 {
+  0%   {background-color:blue;    left:810px; top:-83px;  }
+  25%  {background-color:#E8EAF6; left:810px; top:20px;}
+  50%  {background-color:blue;    left:810px; top:136px;}
+  75%  {background-color:#E8EAF6; left:810px; top:20px;}
+  100% {background-color:blue;    left:810px; top:-83px;  }
+}
+
+#line9 {
+  width: 10px;
+  height: 50px;
+  background-color: blue;
+  position: relative;
+  animation-name: L9;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes L9 {
+  0%   {background-color:blue;    left:1060px; top:-133px;  }
+  25%  {background-color:#E8EAF6; left:1060px; top:-30px;}
+  50%  {background-color:blue;    left:1060px; top:86px;}
+  75%  {background-color:#E8EAF6; left:1060px; top:-30px;}
+  100% {background-color:blue;    left:1060px; top:-133px;  }
+}
